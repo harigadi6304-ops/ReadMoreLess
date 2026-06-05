@@ -1,14 +1,12 @@
-
-import './App.css'
+import "./App.css";
+import ReadMoreLess from "./Components/ReadMoreLess/ReadMoreLess";
 
 function App() {
-
   return (
-   <div className='App'>
-
-
-   </div>
-  )
+    <div className="App">
+      <ReadMoreLess />
+    </div>
+  );
 }
 
-export default App
+export default App;
